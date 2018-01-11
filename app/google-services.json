@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "585680230536",
+    "firebase_url": "https://message-app-368c2.firebaseio.com",
+    "project_id": "message-app-368c2",
+    "storage_bucket": "message-app-368c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585680230536:android:e87e9c413f4b5514",
+        "android_client_info": {
+          "package_name": "com.jackandphantom.messageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585680230536-grgrtgn3qej68frmb4eue9jq1p6luo7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jackandphantom.messageapp",
+            "certificate_hash": "2edaeb4c2944cf3d777140f84df64f02376d1d74"
+          }
+        },
+        {
+          "client_id": "585680230536-mklskjmn08sq6h9lbufdvumoe19bhm3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt7BanMnsr3fFg_INK-vQ9XV40WTy5JBk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585680230536-mklskjmn08sq6h9lbufdvumoe19bhm3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

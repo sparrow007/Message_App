@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/game_back"
+    android:layout_gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardElevation="5dp"
+        android:id="@+id/toolbar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#b6916a">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:fontFamily="@font/averia_libre"
+                android:textSize="20sp"
+                android:text="IChat"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/online_status"
+                android:visibility="visible"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="516dp"
+        android:id="@+id/layout_chatbox"
+        android:layout_below="@+id/toolbar">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        android:layout_below="@+id/layout_chatbox"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="310dp"
+                android:layout_height="50dp"
+                android:textSize="15sp"
+                android:background="@drawable/my_edit"
+                android:hint="Enter your message"
+                android:inputType="text"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/averia_libre"
+                android:textColor="#000"
+
+                android:id="@+id/edittext_chatbox"
+
+                />
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/button_chatbox_send"
+                android:layout_toRightOf="@+id/edittext_chatbox"
+                android:background="@drawable/ic_send"
+                android:visibility="invisible"
+                />
+
+            <Button
+                android:visibility="invisible"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/edittext_chatbox"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/uploadImage"
+                android:background="@drawable/ic_file_upload"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MessageApp</string>
+    <string name="error">Oops! The username is already exists</string>
+    <string name="type_your_message">Enter Your message</string>
+</resources>

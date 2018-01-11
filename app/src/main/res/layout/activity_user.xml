@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jackandphantom.messageapp.UI.UserActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backward"/>
+
+    <TextView
+        android:id="@+id/show_message"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#ed4a4a"
+        android:fontFamily="@font/averia_libre"
+        android:paddingLeft="75dp"
+        android:paddingTop="3dp"
+        android:text="@string/error"
+        android:textColor="#fff"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/usernameEdit"
+        android:textSize="14dp"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/averia_libre"
+        android:background="@drawable/my_edit"
+        android:textColor="#000"
+        android:textColorHint="#a9a8a8"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:hint="Enter your username"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/usernameEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Start Chat"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:fontFamily="@font/averia_libre"
+        android:background="@drawable/rectangle_round"
+        android:id="@+id/usernameButton"/>
+
+</RelativeLayout>
